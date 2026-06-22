@@ -6,15 +6,31 @@
 
 int main() {
   // Área para definição das variáveis para armazenar as propriedades das cidades
-
-
-  printf("Olá mundo, no codespace!\n");
-  printf("Exemplo de edição de código\n");
-
+int código da carta;
+char estado;
+char cidade;
+int população;
+float área;
+int pontos turísticos;
   
   // Área para entrada de dados
 
+  printf("Código da carta: %d\n");
+  printf("Estado: s\n");
+  printf("Cidade: s\n");
+  printf("População: %d\n");
+  printf("Área: %f\n");
+  printf("Pontos turísticos: %d\n");
+  
   // Área para exibição dos dados da cidade
 
+  scanf("%d", &código);
+  scanf("%s", &estado);
+  scanf("%s", &cidade);
+  scanf("%d", &população);
+  scanf("%2.f", &area);
+  scanf("%d", &pontos turísticos);
+
+  
 return 0;
 } 
