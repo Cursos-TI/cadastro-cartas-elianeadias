@@ -6,30 +6,45 @@
 
 int main() {
   // Área para definição das variáveis para armazenar as propriedades das cidades
-int codigocarta;
-char estado[3];
-char cidade[50];
+
+int codigo_carta;
+char estado [3];
+char cidade [50];
 int populacao;
-float area;
-int pontosturisticos;
+float area_km;
+int pontosTuristicos;
+
   
   // Área para entrada de dados
 
-  scanf("%d", &codigocarta);
-  scanf("%2s", estado);
-  scanf("%49s", cidade);
-  scanf("%d", &populacao);
-  scanf("%f", &area);
-  scanf("%d", &pontosturisticos);
+printf("digite o codigo_carta: \n");
+scanf("%d", &codigo_carta);
+
+printf("Digite o estado: \n");
+scanf("%s", estado);
+
+printf("Digite o nome da cidade : \n");
+scanf("%s", cidade);
+
+printf("digite a populacao: \n");
+scanf("%d", &populacao);
+
+printf("digite a area: \n");
+scanf("%f", &area_km);
+
+printf("Digite numero de pontos turisticos: %d\n");
+scanf("%d", &pontosTuristicos);
 
   // Área para exibição dos dados da cidade
 
-  printf("Código da carta: %d\n", codigocarta);
-  printf("Estado: %s\n", estado);
-  printf("Cidade: %s\n", cidade);
-  printf("População: %d\n", populacao);
-  printf("Área: %f\n", area);
-  printf("Pontos turísticos: %d\n", pontosturisticos);
-  
+printf("Codigo: %d\n", codigo_carta);
+printf("Estado: %s\n", estado);
+printf("Cidade: %s\n", cidade);
+printf("populacao: %d\n", populacao);
+printf("Area: %f\n", area_km);
+printf("Pontos Turisticos: %d\n", pontosTuristicos);
+
+
 return 0;
+
 } 
